@@ -10,6 +10,7 @@
     --color-red-500: oklch(63.7% 0.237 25.331);
     --color-red-600: oklch(57.7% 0.245 27.325);
     --color-amber-200: oklch(92.4% 0.12 95.746);
+    --color-amber-500: oklch(76.9% 0.188 70.08);
     --color-green-300: oklch(87.1% 0.15 154.449);
     --color-green-500: oklch(72.3% 0.219 149.579);
     --color-green-600: oklch(62.7% 0.194 149.214);
@@ -214,38 +215,11 @@
   .right-0 {
     right: calc(var(--spacing) * 0);
   }
-  .right-2 {
-    right: calc(var(--spacing) * 2);
-  }
-  .right-3 {
-    right: calc(var(--spacing) * 3);
-  }
-  .right-30 {
-    right: calc(var(--spacing) * 30);
-  }
   .-bottom-3 {
     bottom: calc(var(--spacing) * -3);
   }
-  .bottom-0 {
-    bottom: calc(var(--spacing) * 0);
-  }
   .bottom-5 {
     bottom: calc(var(--spacing) * 5);
-  }
-  .bottom-10 {
-    bottom: calc(var(--spacing) * 10);
-  }
-  .left-0 {
-    left: calc(var(--spacing) * 0);
-  }
-  .left-2 {
-    left: calc(var(--spacing) * 2);
-  }
-  .left-5 {
-    left: calc(var(--spacing) * 5);
-  }
-  .left-10 {
-    left: calc(var(--spacing) * 10);
   }
   .left-12 {
     left: calc(var(--spacing) * 12);
@@ -280,17 +254,8 @@
   .mt-2 {
     margin-top: calc(var(--spacing) * 2);
   }
-  .mt-5 {
-    margin-top: calc(var(--spacing) * 5);
-  }
   .mt-30 {
     margin-top: calc(var(--spacing) * 30);
-  }
-  .mt-40 {
-    margin-top: calc(var(--spacing) * 40);
-  }
-  .mt-50 {
-    margin-top: calc(var(--spacing) * 50);
   }
   .mr-0 {
     margin-right: calc(var(--spacing) * 0);
@@ -325,14 +290,8 @@
   .h-2 {
     height: calc(var(--spacing) * 2);
   }
-  .h-3 {
-    height: calc(var(--spacing) * 3);
-  }
   .h-5 {
     height: calc(var(--spacing) * 5);
-  }
-  .h-10 {
-    height: calc(var(--spacing) * 10);
   }
   .h-13 {
     height: calc(var(--spacing) * 13);
@@ -346,41 +305,23 @@
   .h-18 {
     height: calc(var(--spacing) * 18);
   }
-  .h-20 {
-    height: calc(var(--spacing) * 20);
-  }
-  .h-30 {
-    height: calc(var(--spacing) * 30);
-  }
-  .h-35 {
-    height: calc(var(--spacing) * 35);
-  }
-  .h-50 {
-    height: calc(var(--spacing) * 50);
-  }
   .h-screen {
     height: 100vh;
   }
   .max-h-screen {
     max-height: 100vh;
   }
-  .w-1 {
-    width: calc(var(--spacing) * 1);
-  }
   .w-2 {
     width: calc(var(--spacing) * 2);
-  }
-  .w-3 {
-    width: calc(var(--spacing) * 3);
   }
   .w-5 {
     width: calc(var(--spacing) * 5);
   }
+  .w-6 {
+    width: calc(var(--spacing) * 6);
+  }
   .w-9 {
     width: calc(var(--spacing) * 9);
-  }
-  .w-10 {
-    width: calc(var(--spacing) * 10);
   }
   .w-12 {
     width: calc(var(--spacing) * 12);
@@ -399,12 +340,6 @@
   }
   .w-22 {
     width: calc(var(--spacing) * 22);
-  }
-  .w-30 {
-    width: calc(var(--spacing) * 30);
-  }
-  .w-50 {
-    width: calc(var(--spacing) * 50);
   }
   .w-full {
     width: 100%;
@@ -458,9 +393,6 @@
   .overflow-y-auto {
     overflow-y: auto;
   }
-  .rounded {
-    border-radius: 0.25rem;
-  }
   .rounded-2xl {
     border-radius: var(--radius-2xl);
   }
@@ -474,8 +406,8 @@
   .bg-\[\#075e55\] {
     background-color: #075e55;
   }
-  .bg-amber-200 {
-    background-color: var(--color-amber-200);
+  .bg-amber-500 {
+    background-color: var(--color-amber-500);
   }
   .bg-emerald-200 {
     background-color: var(--color-emerald-200);
@@ -498,14 +430,17 @@
   .bg-gray-300 {
     background-color: var(--color-gray-300);
   }
-  .bg-gray-400 {
-    background-color: var(--color-gray-400);
-  }
   .bg-green-500 {
     background-color: var(--color-green-500);
   }
   .bg-none {
     background-image: none;
+  }
+  .bg-cover {
+    background-size: cover;
+  }
+  .bg-center {
+    background-position: center;
   }
   .object-cover {
     object-fit: cover;
@@ -533,10 +468,6 @@
   }
   .py-5 {
     padding-block: calc(var(--spacing) * 5);
-  }
-  .text-2xl {
-    font-size: var(--text-2xl);
-    line-height: var(--tw-leading, var(--text-2xl--line-height));
   }
   .text-lg {
     font-size: var(--text-lg);
@@ -613,9 +544,6 @@
   .text-green-600 {
     color: var(--color-green-600);
   }
-  .text-red-500 {
-    color: var(--color-red-500);
-  }
   .text-red-600 {
     color: var(--color-red-600);
   }
@@ -689,6 +617,11 @@
   .sm\:bg-green-300 {
     @media (width >= 40rem) {
       background-color: var(--color-green-300);
+    }
+  }
+  .sm\:bg-\[url\(\'\.\/back\.jpg\'\)\] {
+    @media (width >= 40rem) {
+      background-image: url('./back.jpg');
     }
   }
   .md\:max-w-lg {
