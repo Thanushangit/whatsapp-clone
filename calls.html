@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+          integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link data-default-icon="https://static.whatsapp.net/rsrc.php/v4/yP/r/rYZqPCBaG70.png" rel="shortcut icon"
+          href="https://static.whatsapp.net/rsrc.php/v4/yP/r/rYZqPCBaG70.png">
+        <link rel="stylesheet" href="output.css" />
+        <title>Whatsapp | Calls </title>
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+      </head>
+
+<body>
+    <header class="fixed w-full z-50">
+        <section
+          class="bg-[#075e55]  max-w-full md:max-w-lg  m-auto text-gray-200 flex items-center justify-between font-semibold p-4">
+          <div>
+            <h1 class="text-xl">WhatsApp</h1>
+          </div>
+    
+          <div class="flex items-center gap-3">
+            <svg class="hover:text-gray-300 cursor-pointer" xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+              viewBox="0 0 24 24">
+              <!-- Icon from Material Symbols by Google - https://github.com/google/material-design-icons/blob/master/LICENSE -->
+              <title>Camera</title>
+              <path fill="currentColor"
+                d="M12 18q2.075 0 3.538-1.462Q17 15.075 17 13q0-2.075-1.462-3.538Q14.075 8 12 8Q9.925 8 8.463 9.462Q7 10.925 7 13q0 2.075 1.463 3.538Q9.925 18 12 18Zm0-2q-1.25 0-2.125-.875T9 13q0-1.25.875-2.125T12 10q1.25 0 2.125.875T15 13q0 1.25-.875 2.125T12 16Zm6-6q.425 0 .712-.288Q19 9.425 19 9t-.288-.713Q18.425 8 18 8t-.712.287Q17 8.575 17 9t.288.712Q17.575 10 18 10ZM4 21q-.825 0-1.412-.587Q2 19.825 2 19V7q0-.825.588-1.412Q3.175 5 4 5h3.15L8.7 3.325q.15-.15.337-.238Q9.225 3 9.425 3h5.15q.2 0 .388.087q.187.088.337.238L16.85 5H20q.825 0 1.413.588Q22 6.175 22 7v12q0 .825-.587 1.413Q20.825 21 20 21Zm16-2V7h-4.05l-1.825-2h-4.25L8.05 7H4v12Zm-8-6Z" />
+            </svg>
+    
+            <svg class="hover:text-gray-300 cursor-pointer" xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+              viewBox="0 0 24 24">
+              <!-- Icon from Google Material Icons by Material Design Authors - https://github.com/material-icons/material-icons/blob/master/LICENSE -->
+              <title>Search</title>
+              <path fill="currentColor"
+                d="M15.5 14h-.79l-.28-.27a6.5 6.5 0 0 0 1.48-5.34c-.47-2.78-2.79-5-5.59-5.34a6.505 6.505 0 0 0-7.27 7.27c.34 2.8 2.56 5.12 5.34 5.59a6.5 6.5 0 0 0 5.34-1.48l.27.28v.79l4.25 4.25c.41.41 1.08.41 1.49 0s.41-1.08 0-1.49zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5S14 7.01 14 9.5S11.99 14 9.5 14" />
+            </svg>
+    
+            <a href="./menu.html">
+              <svg class="hover:text-gray-300 cursor-pointer" xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+                viewBox="0 0 24 24">
+                <!-- Icon from Google Material Icons by Material Design Authors - https://github.com/material-icons/material-icons/blob/master/LICENSE -->
+                <title>Menu</title>
+                <path fill="currentColor"
+                  d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2s-2 .9-2 2s.9 2 2 2m0 2c-1.1 0-2 .9-2 2s.9 2 2 2s2-.9 2-2s-.9-2-2-2m0 6c-1.1 0-2 .9-2 2s.9 2 2 2s2-.9 2-2s-.9-2-2-2" />
+              </svg>
+            </a>
+          </div>
+        </section>
+    
+        <section
+          class="bg-[#075e55] max-w-full md:max-w-lg m-auto text-gray-300 flex items-center justify-between font-semibold p-4">
+         <div>
+             <a href="./community.html">
+                <svg class="hover:text-gray-100" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24 ">
+                  <!-- Icon from Google Material Icons by Material Design Authors - https://github.com/material-icons/material-icons/blob/master/LICENSE -->
+                  <path fill="currentColor"
+                    d="M12 12.75c1.63 0 3.07.39 4.24.9c1.08.48 1.76 1.56 1.76 2.73V17c0 .55-.45 1-1 1H7c-.55 0-1-.45-1-1v-.61c0-1.18.68-2.26 1.76-2.73c1.17-.52 2.61-.91 4.24-.91M4 13c1.1 0 2-.9 2-2s-.9-2-2-2s-2 .9-2 2s.9 2 2 2m1.13 1.1c-.37-.06-.74-.1-1.13-.1c-.99 0-1.93.21-2.78.58A2.01 2.01 0 0 0 0 16.43V17c0 .55.45 1 1 1h3.5v-1.61c0-.83.23-1.61.63-2.29M20 13c1.1 0 2-.9 2-2s-.9-2-2-2s-2 .9-2 2s.9 2 2 2m4 3.43c0-.81-.48-1.53-1.22-1.85A6.95 6.95 0 0 0 20 14c-.39 0-.76.04-1.13.1c.4.68.63 1.46.63 2.29V18H23c.55 0 1-.45 1-1zM12 6c1.66 0 3 1.34 3 3s-1.34 3-3 3s-3-1.34-3-3s1.34-3 3-3" />
+                </svg>
+              </a>
+         </div>
+    
+          <div class="flex items-center justify-between w-full ms-3 relative">
+            <a href="./index.html">
+              <p class="uppercase font-medium hover:text-gray-100">
+                chats
+                <span class="w-5 h-5 bg-gray-100 p-1 rounded-full text-[#075e55] text-xs font-bold">10</span>
+              </p>
+            </a>
+            <div class="flex items-center">
+              <a href="./update.html">
+                <p class="uppercase font-medium hover:text-gray-100">updates</p>
+               
+              </a>
+              <p class="font-extrabold ms-1.5">.</p>
+            </div>
+            <div class="relative">
+                <a href="./calls.html">
+                  <p class="uppercase font-medium hover:text-gray-100 text-gray-100">calls</p>
+                  <div class="absolute top-10 w-12 h-1 bg-gray-100  "></div>
+                </a>
+
+            </div>
+          </div>
+        </section>
+    </header>
+
+    <section class="bg-gray-100  max-w-full md:max-w-lg  m-auto flex flex-col items-center justify-between font-semibold overflow-y-auto max-h-screen">
+        <div class="w-full">
+
+            <div class="p-4 flex items-center mt-30 hover:bg-gray-300 hover:cursor-pointer transition">
+           
+                <div class="rounded-full w-20 h-16 flex items-center justify-center bg-emerald-500 text-gray-100">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><!-- Icon from Material Line Icons by Vjacheslav Trushkin - https://github.com/cyberalien/line-md/blob/master/license.txt --><path fill="none" stroke="currentColor" stroke-dasharray="28" stroke-dashoffset="28" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 6l2 -2c1 -1 3 -1 4 0l1 1c1 1 1 3 0 4l-5 5c-1 1 -3 1 -4 0M11 18l-2 2c-1 1 -3 1 -4 0l-1 -1c-1 -1 -1 -3 0 -4l5 -5c1 -1 3 -1 4 0"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.6s" values="28;0"/></path></svg>
+                </div>
+        
+              <div class="flex items-start justify-between w-full ms-4">
+                <div>
+                  <h1 class="font-bold text-gray-700 text-lg">Create call link</h1>
+                  <div class="flex items-center">
+                    <p class=" text-gray-700 text-sm">Share a link for your WhatsApp Call</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <div>
+              <p class="px-4 py-1 font-semibold text-gray-400 ">Recent</p>
+          </div>
+
+          <div class="p-4 flex items-center  hover:bg-gray-300 hover:cursor-pointer transition">
+
+            <img class="rounded-full w-13 h-13  object-cover"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRonJ3Qc2fm1w4ln5Mweri8PLKhV1Q5xd32vg&s"
+              alt="profile" />
+          
+           <div class="flex flex-1 justify-center items-center">
+
+            <div class="flex items-start justify-between w-full ms-4">
+                <div>
+                  <h4 class="font-semibold">Akka</h4>
+                  <div class="flex items-center">
+                    <div class="text-gray-500 flex items-center gap-1">
+                      <p class="text-green-600 mt-1">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"><!-- Icon from Material Symbols by Google - https://github.com/google/material-design-icons/blob/master/LICENSE --><path fill="currentColor" d="M5.4 20L4 18.6L15.6 7H9V5h10v10h-2V8.4z"/></svg>
+                        </svg>
+                      </p>
+                      <p>(2) 16 minutes</p>
+            
+                    </div>
+                  </div>
+                </div>
+                <div class="flex text-emerald-500 items-center mt-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><!-- Icon from Material Symbols by Google - https://github.com/google/material-design-icons/blob/master/LICENSE --><path fill="currentColor" d="M4 20q-.825 0-1.412-.587T2 18V6q0-.825.588-1.412T4 4h12q.825 0 1.413.588T18 6v4.5l4-4v11l-4-4V18q0 .825-.587 1.413T16 20z"/></svg>
+                </div>
+              </div>
+
+           </div>
+
+
+          </div>
+
+          
+
+          <div class="p-4 flex items-center  hover:bg-gray-300 hover:cursor-pointer transition">
+
+            <img class="rounded-full w-13 h-13  object-cover"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRonJ3Qc2fm1w4ln5Mweri8PLKhV1Q5xd32vg&s"
+              alt="profile" />
+          
+           <div class="flex flex-1 justify-center items-center">
+
+            <div class="flex items-start justify-between w-full ms-4">
+                <div>
+                  <h4 class="font-semibold">Akka</h4>
+                  <div class="flex items-center">
+                    <div class="text-gray-500 flex items-center gap-1">
+                      <p class="text-green-600 mt-1">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"><!-- Icon from Material Symbols by Google - https://github.com/google/material-design-icons/blob/master/LICENSE --><path fill="currentColor" d="M5.4 20L4 18.6L15.6 7H9V5h10v10h-2V8.4z"/></svg>
+                        </svg>
+                      </p>
+                      <p>(2) 16 minutes</p>
+            
+                    </div>
+                  </div>
+                </div>
+                <div class="flex text-emerald-500 items-center mt-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><!-- Icon from Material Symbols by Google - https://github.com/google/material-design-icons/blob/master/LICENSE --><path fill="currentColor" d="M4 20q-.825 0-1.412-.587T2 18V6q0-.825.588-1.412T4 4h12q.825 0 1.413.588T18 6v4.5l4-4v11l-4-4V18q0 .825-.587 1.413T16 20z"/></svg>
+                </div>
+              </div>
+
+           </div>
+
+
+          </div>
+
+
+
+
+
+
+          <div class="p-4 flex items-center  hover:bg-gray-300 hover:cursor-pointer transition">
+
+            <img class="rounded-full w-13 h-13  object-cover"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRonJ3Qc2fm1w4ln5Mweri8PLKhV1Q5xd32vg&s"
+              alt="profile" />
+          
+           <div class="flex flex-1 justify-center items-center">
+
+            <div class="flex items-start justify-between w-full ms-4">
+                <div>
+                  <h4 class="font-semibold">Akka</h4>
+                  <div class="flex items-center">
+                    <div class="text-gray-500 flex items-center gap-1">
+                      <p class="text-green-600 mt-1">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"><!-- Icon from Material Symbols by Google - https://github.com/google/material-design-icons/blob/master/LICENSE --><path fill="currentColor" d="M5.4 20L4 18.6L15.6 7H9V5h10v10h-2V8.4z"/></svg>
+                        </svg>
+                      </p>
+                      <p>(2) 16 minutes</p>
+            
+                    </div>
+                  </div>
+                </div>
+                <div class="flex text-emerald-500 items-center mt-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><!-- Icon from Material Symbols by Google - https://github.com/google/material-design-icons/blob/master/LICENSE --><path fill="currentColor" d="M4 20q-.825 0-1.412-.587T2 18V6q0-.825.588-1.412T4 4h12q.825 0 1.413.588T18 6v4.5l4-4v11l-4-4V18q0 .825-.587 1.413T16 20z"/></svg>
+                </div>
+              </div>
+
+           </div>
+
+
+          </div>
+
+
+
+
+
+
+
+
+          <div class="p-4 flex items-center  hover:bg-gray-300 hover:cursor-pointer transition">
+
+            <img class="rounded-full w-13 h-13  object-cover"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRonJ3Qc2fm1w4ln5Mweri8PLKhV1Q5xd32vg&s"
+              alt="profile" />
+          
+           <div class="flex flex-1 justify-center items-center">
+
+            <div class="flex items-start justify-between w-full ms-4">
+                <div>
+                  <h4 class="font-semibold">Akka</h4>
+                  <div class="flex items-center">
+                    <div class="text-gray-500 flex items-center gap-1">
+                      <p class="text-green-600 mt-1">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"><!-- Icon from Material Symbols by Google - https://github.com/google/material-design-icons/blob/master/LICENSE --><path fill="currentColor" d="M5.4 20L4 18.6L15.6 7H9V5h10v10h-2V8.4z"/></svg>
+                        </svg>
+                      </p>
+                      <p>(2) 16 minutes</p>
+            
+                    </div>
+                  </div>
+                </div>
+                <div class="flex text-emerald-500 items-center mt-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><!-- Icon from Material Symbols by Google - https://github.com/google/material-design-icons/blob/master/LICENSE --><path fill="currentColor" d="M4 20q-.825 0-1.412-.587T2 18V6q0-.825.588-1.412T4 4h12q.825 0 1.413.588T18 6v4.5l4-4v11l-4-4V18q0 .825-.587 1.413T16 20z"/></svg>
+                </div>
+              </div>
+
+           </div>
+
+
+          </div>
+
+
+
+
+
+
+
+
+
+
+          <div class="p-4 flex items-center  hover:bg-gray-300 hover:cursor-pointer transition">
+
+            <img class="rounded-full w-13 h-13  object-cover"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRonJ3Qc2fm1w4ln5Mweri8PLKhV1Q5xd32vg&s"
+              alt="profile" />
+          
+           <div class="flex flex-1 justify-center items-center">
+
+            <div class="flex items-start justify-between w-full ms-4">
+                <div>
+                  <h4 class="font-semibold">Akka</h4>
+                  <div class="flex items-center">
+                    <div class="text-gray-500 flex items-center gap-1">
+                      <p class="text-green-600 mt-1">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"><!-- Icon from Material Symbols by Google - https://github.com/google/material-design-icons/blob/master/LICENSE --><path fill="currentColor" d="M5.4 20L4 18.6L15.6 7H9V5h10v10h-2V8.4z"/></svg>
+                        </svg>
+                      </p>
+                      <p>(2) 16 minutes</p>
+            
+                    </div>
+                  </div>
+                </div>
+                <div class="flex text-emerald-500 items-center mt-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><!-- Icon from Material Symbols by Google - https://github.com/google/material-design-icons/blob/master/LICENSE --><path fill="currentColor" d="M4 20q-.825 0-1.412-.587T2 18V6q0-.825.588-1.412T4 4h12q.825 0 1.413.588T18 6v4.5l4-4v11l-4-4V18q0 .825-.587 1.413T16 20z"/></svg>
+                </div>
+              </div>
+
+           </div>
+
+
+          </div>
+
+
+          
+          <div class="p-4 flex items-center  hover:bg-gray-300 hover:cursor-pointer transition">
+
+            <img class="rounded-full w-13 h-13  object-cover"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRonJ3Qc2fm1w4ln5Mweri8PLKhV1Q5xd32vg&s"
+              alt="profile" />
+          
+           <div class="flex flex-1 justify-center items-center">
+
+            <div class="flex items-start justify-between w-full ms-4">
+                <div>
+                  <h4 class="font-semibold">Akka</h4>
+                  <div class="flex items-center">
+                    <div class="text-gray-500 flex items-center gap-1">
+                      <p class="text-green-600 mt-1">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"><!-- Icon from Material Symbols by Google - https://github.com/google/material-design-icons/blob/master/LICENSE --><path fill="currentColor" d="M5.4 20L4 18.6L15.6 7H9V5h10v10h-2V8.4z"/></svg>
+                        </svg>
+                      </p>
+                      <p>(2) 16 minutes</p>
+            
+                    </div>
+                  </div>
+                </div>
+                <div class="flex text-emerald-500 items-center mt-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><!-- Icon from Material Symbols by Google - https://github.com/google/material-design-icons/blob/master/LICENSE --><path fill="currentColor" d="M4 20q-.825 0-1.412-.587T2 18V6q0-.825.588-1.412T4 4h12q.825 0 1.413.588T18 6v4.5l4-4v11l-4-4V18q0 .825-.587 1.413T16 20z"/></svg>
+                </div>
+              </div>
+
+           </div>
+
+
+          </div>
+
+
+
+        </div>
+    </section>
+</body>
+</html>
